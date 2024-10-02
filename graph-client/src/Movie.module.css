@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: linear-gradient(90deg, #f953c6, #b91d73);
+  height: 100vh;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.movieTitle {
+  color: white;
+  font-size: 60px;
+}
+
+.movieRating{
+  font-size: 30px;
+  color: white;
+}
+
+.movieImg {
+  width: 100%;
+}
